@@ -1,0 +1,13 @@
+{
+    "name": "unilink/notifications",
+    "description": "UniLink Notification System",
+    "require": {
+        "php": ">=7.4",
+        "minishlink/web-push": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UniLink\\": "classes/"
+        }
+    }
+}
